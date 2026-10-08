@@ -1,0 +1,17 @@
+{
+  "base_model_name_or_path": "/Users/dophi/Desktop/K4-L3-Track3-Day22-DoNgocPhi-2A202602531/models/sft-merged",
+  "bias": "none",
+  "lora_alpha": 32,
+  "lora_dropout": 0.0,
+  "peft_type": "LORA",
+  "r": 16,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ]
+}

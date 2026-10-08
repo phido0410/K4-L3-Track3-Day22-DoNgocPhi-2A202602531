@@ -1,0 +1,17 @@
+{
+  "base_model_name_or_path": "unsloth/Qwen3-4B-Instruct-2507-unsloth-bnb-4bit",
+  "bias": "none",
+  "lora_alpha": 32,
+  "lora_dropout": 0.0,
+  "peft_type": "LORA",
+  "r": 16,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ]
+}
